@@ -1,0 +1,51 @@
+.Nav-container{
+    display: flex;
+    position: fixed;
+    padding: 8px;
+    margin-top: -50px;
+    background: #F8F9FA;
+    height: 75px;
+    width: 100%;
+}
+
+.menu-bar{
+
+    li{
+        list-style: none;
+    }
+
+    .active-class{
+    color:#72AEC8;
+}
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    margin-left: 20rem;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.menu-icon{
+    display: flex;
+    margin-left: 80px;
+    font-size: 20px;
+    gap: 15px;
+    margin-top: 18px;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+ a{
+        text-decoration: none;
+        color: #717171;
+    }
+
+a:hover{
+    color:#72AEC8;
+}
+

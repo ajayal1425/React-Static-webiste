@@ -1,0 +1,51 @@
+.subscription-container{
+    display: flex;
+    margin-top: 100px;
+    background: #212529;
+    height: 200px;
+    width: 71rem;
+    margin-left: 100px;
+}
+
+.sub-title{
+    h3{
+        font-size: 32px;
+        color: #F8F9FA;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 17px;
+        color: #AEAEAE;
+        margin-top: -20px;
+    }
+}
+
+.sub-title{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.sub-input{
+     margin-top: 80px;
+    margin-left: 70px;
+}
+.sub-input{
+    input{
+        width:270px;
+        height:40px;
+        font-size: 16px;
+    }
+    button{
+        width:180px;
+        height:45px;
+        background: #72AEC8;
+        border: none;
+        color: white;
+    }
+
+    button:hover{
+        background: #212529;
+        cursor: pointer;
+    }
+}
